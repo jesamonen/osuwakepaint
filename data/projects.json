@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Luxury Residential Estate",
+    "image": "images/projects/project1.jpg",
+    "description": "Interior and exterior painting with premium emulsion paint.",
+    "location": "Lagos",
+    "category": "Residential"
+  },
+  {
+    "title": "Corporate Office Complex",
+    "image": "images/projects/project2.jpg",
+    "description": "Professional screeding and decorative paint finish.",
+    "location": "Abuja",
+    "category": "Commercial"
+  }
+  
+ 
+]

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CRM Dashboard | Osuwake Paints</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+table{
+    width:90%;
+    margin:20px auto;
+    border-collapse: collapse;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+th, td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:left;
+}
+
+th{
+    background:#2563eb;
+    color:white;
+}
+
+tr:nth-child(even){
+    background:#f9f9f9;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>📊 Osuwake Paints CRM Dashboard</h1>
+</header>
+
+<table id="crmTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+
+    <tbody></tbody>
+</table>
+
+<script>
+const sheetURL =
+"https://docs.google.com/spreadsheets/d/e/AKfycbzV_TVHXxcJvrIyFuOYJgcb500B18oYqLc4BPlEmaxCXbIPVOCI9xas-N6v8Ypadr19/pub?output=csv";
+
+fetch(sheetURL)
+.then(res => res.text())
+.then(data => {
+
+    const rows = data.split("\n").slice(1);
+
+    const table = document.querySelector("#crmTable tbody");
+
+    rows.forEach(row => {
+
+        const cols = row.split(",");
+
+        if(cols.length >= 4){
+
+            const tr = document.createElement("tr");
+
+            tr.innerHTML = `
+                <td>${cols[0]}</td>
+                <td>${cols[1]}</td>
+                <td>${cols[2]}</td>
+                <td>${cols[3]}</td>
+            `;
+
+            table.appendChild(tr);
+        }
+
+    });
+
+});
+</script>
+
+</body>
+</html>

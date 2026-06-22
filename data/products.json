@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Premium Emulsion Paint",
+    "category": "paint",
+    "image": "images/products/emulsion.jpg",
+    "description": "High-quality interior emulsion paint with excellent coverage."
+  },
+
+  {
+    "name": "Exterior Weather Shield",
+    "category": "paint",
+    "image": "images/products/exterior.jpg",
+    "description": "Weather-resistant exterior coating for long-lasting protection."
+  },
+
+  {
+    "name": "Screeding Compound",
+    "category": "screeding",
+    "image": "images/products/screeding.jpg",
+    "description": "Smooth wall finishing compound for professional results."
+  },
+
+  {
+    "name": "Wall Primer",
+    "category": "primer",
+    "image": "images/products/primer.jpg",
+    "description": "Improves paint adhesion and durability."
+  },
+
+  {
+    "name": "Texture Paint",
+    "category": "texture",
+    "image": "images/products/texture.jpg",
+    "description": "Decorative textured finish for modern interiors and exteriors."
+  }
+]

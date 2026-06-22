@@ -1,0 +1,33 @@
+[
+  {
+    "title": "How to Choose the Right Paint for Your Home",
+    "excerpt": "Learn how to select paint that matches your style, budget, and environment.",
+    "image": "images/blog/blog1.jpg",
+    "date": "June 2026",
+    "link": "#"
+  },
+
+  {
+    "title": "Benefits of Wall Screeding Before Painting",
+    "excerpt": "Discover why proper screeding creates smoother and longer-lasting paint finishes.",
+    "image": "images/blog/blog2.jpg",
+    "date": "May 2026",
+    "link": "#"
+  },
+
+  {
+    "title": "Top Exterior Paint Colors for Modern Homes",
+    "excerpt": "Explore trending colors that improve curb appeal and durability.",
+    "image": "images/blog/blog3.jpg",
+    "date": "April 2026",
+    "link": "#"
+  },
+
+  {
+    "title": "Paint Maintenance Tips for Long-Term Beauty",
+    "excerpt": "Keep your painted walls looking fresh with these simple maintenance tips.",
+    "image": "images/blog/blog4.jpg",
+    "date": "March 2026",
+    "link": "#"
+  }
+]
