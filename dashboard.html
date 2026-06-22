@@ -3,8 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <title>CRM Dashboard | Osuwake Paints</title>
+<script>
+const password = prompt("Enter Dashboard Password:");
 
+if (password !== "Osuwake2026!") {
+    alert("Access Denied");
+    window.location.href = "index.html";
+}
+</script>
 <style>
+    
 body{
     font-family: Arial;
     margin:0;
